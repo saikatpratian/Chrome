@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18677125224A25DE00B38C0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18677124224A25DE00B38C0A /* AppDelegate.swift */; };
+		18677127224A25DE00B38C0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18677126224A25DE00B38C0A /* ViewController.swift */; };
+		1867712A224A25DE00B38C0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18677128224A25DE00B38C0A /* Main.storyboard */; };
+		1867712C224A25E000B38C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1867712B224A25E000B38C0A /* Assets.xcassets */; };
+		1867712F224A25E000B38C0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1867712D224A25E000B38C0A /* LaunchScreen.storyboard */; };
+		1867713A224A25E000B38C0A /* WinterIsComingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18677139224A25E000B38C0A /* WinterIsComingTests.swift */; };
+		18677145224A25E000B38C0A /* WinterIsComingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18677144224A25E000B38C0A /* WinterIsComingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18677136224A25E000B38C0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18677119224A25DE00B38C0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18677120224A25DE00B38C0A;
+			remoteInfo = WinterIsComing;
+		};
+		18677141224A25E000B38C0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18677119224A25DE00B38C0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18677120224A25DE00B38C0A;
+			remoteInfo = WinterIsComing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18677121224A25DE00B38C0A /* WinterIsComing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinterIsComing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18677124224A25DE00B38C0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18677126224A25DE00B38C0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18677129224A25DE00B38C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1867712B224A25E000B38C0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1867712E224A25E000B38C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18677130224A25E000B38C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18677135224A25E000B38C0A /* WinterIsComingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinterIsComingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18677139224A25E000B38C0A /* WinterIsComingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterIsComingTests.swift; sourceTree = "<group>"; };
+		1867713B224A25E000B38C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18677140224A25E000B38C0A /* WinterIsComingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinterIsComingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18677144224A25E000B38C0A /* WinterIsComingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterIsComingUITests.swift; sourceTree = "<group>"; };
+		18677146224A25E000B38C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1867711E224A25DE00B38C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18677132224A25E000B38C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1867713D224A25E000B38C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18677118224A25DE00B38C0A = {
+			isa = PBXGroup;
+			children = (
+				18677123224A25DE00B38C0A /* WinterIsComing */,
+				18677138224A25E000B38C0A /* WinterIsComingTests */,
+				18677143224A25E000B38C0A /* WinterIsComingUITests */,
+				18677122224A25DE00B38C0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18677122224A25DE00B38C0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18677121224A25DE00B38C0A /* WinterIsComing.app */,
+				18677135224A25E000B38C0A /* WinterIsComingTests.xctest */,
+				18677140224A25E000B38C0A /* WinterIsComingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18677123224A25DE00B38C0A /* WinterIsComing */ = {
+			isa = PBXGroup;
+			children = (
+				18677124224A25DE00B38C0A /* AppDelegate.swift */,
+				18677126224A25DE00B38C0A /* ViewController.swift */,
+				18677128224A25DE00B38C0A /* Main.storyboard */,
+				1867712B224A25E000B38C0A /* Assets.xcassets */,
+				1867712D224A25E000B38C0A /* LaunchScreen.storyboard */,
+				18677130224A25E000B38C0A /* Info.plist */,
+			);
+			path = WinterIsComing;
+			sourceTree = "<group>";
+		};
+		18677138224A25E000B38C0A /* WinterIsComingTests */ = {
+			isa = PBXGroup;
+			children = (
+				18677139224A25E000B38C0A /* WinterIsComingTests.swift */,
+				1867713B224A25E000B38C0A /* Info.plist */,
+			);
+			path = WinterIsComingTests;
+			sourceTree = "<group>";
+		};
+		18677143224A25E000B38C0A /* WinterIsComingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18677144224A25E000B38C0A /* WinterIsComingUITests.swift */,
+				18677146224A25E000B38C0A /* Info.plist */,
+			);
+			path = WinterIsComingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18677120224A25DE00B38C0A /* WinterIsComing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18677149224A25E100B38C0A /* Build configuration list for PBXNativeTarget "WinterIsComing" */;
+			buildPhases = (
+				1867711D224A25DE00B38C0A /* Sources */,
+				1867711E224A25DE00B38C0A /* Frameworks */,
+				1867711F224A25DE00B38C0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WinterIsComing;
+			productName = WinterIsComing;
+			productReference = 18677121224A25DE00B38C0A /* WinterIsComing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18677134224A25E000B38C0A /* WinterIsComingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1867714C224A25E100B38C0A /* Build configuration list for PBXNativeTarget "WinterIsComingTests" */;
+			buildPhases = (
+				18677131224A25E000B38C0A /* Sources */,
+				18677132224A25E000B38C0A /* Frameworks */,
+				18677133224A25E000B38C0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18677137224A25E000B38C0A /* PBXTargetDependency */,
+			);
+			name = WinterIsComingTests;
+			productName = WinterIsComingTests;
+			productReference = 18677135224A25E000B38C0A /* WinterIsComingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1867713F224A25E000B38C0A /* WinterIsComingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1867714F224A25E100B38C0A /* Build configuration list for PBXNativeTarget "WinterIsComingUITests" */;
+			buildPhases = (
+				1867713C224A25E000B38C0A /* Sources */,
+				1867713D224A25E000B38C0A /* Frameworks */,
+				1867713E224A25E000B38C0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18677142224A25E000B38C0A /* PBXTargetDependency */,
+			);
+			name = WinterIsComingUITests;
+			productName = WinterIsComingUITests;
+			productReference = 18677140224A25E000B38C0A /* WinterIsComingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18677119224A25DE00B38C0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					18677120224A25DE00B38C0A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					18677134224A25E000B38C0A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 18677120224A25DE00B38C0A;
+					};
+					1867713F224A25E000B38C0A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 18677120224A25DE00B38C0A;
+					};
+				};
+			};
+			buildConfigurationList = 1867711C224A25DE00B38C0A /* Build configuration list for PBXProject "WinterIsComing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18677118224A25DE00B38C0A;
+			productRefGroup = 18677122224A25DE00B38C0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18677120224A25DE00B38C0A /* WinterIsComing */,
+				18677134224A25E000B38C0A /* WinterIsComingTests */,
+				1867713F224A25E000B38C0A /* WinterIsComingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1867711F224A25DE00B38C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1867712F224A25E000B38C0A /* LaunchScreen.storyboard in Resources */,
+				1867712C224A25E000B38C0A /* Assets.xcassets in Resources */,
+				1867712A224A25DE00B38C0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18677133224A25E000B38C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1867713E224A25E000B38C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1867711D224A25DE00B38C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18677127224A25DE00B38C0A /* ViewController.swift in Sources */,
+				18677125224A25DE00B38C0A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18677131224A25E000B38C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1867713A224A25E000B38C0A /* WinterIsComingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1867713C224A25E000B38C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18677145224A25E000B38C0A /* WinterIsComingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18677137224A25E000B38C0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18677120224A25DE00B38C0A /* WinterIsComing */;
+			targetProxy = 18677136224A25E000B38C0A /* PBXContainerItemProxy */;
+		};
+		18677142224A25E000B38C0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18677120224A25DE00B38C0A /* WinterIsComing */;
+			targetProxy = 18677141224A25E000B38C0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18677128224A25DE00B38C0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18677129224A25DE00B38C0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1867712D224A25E000B38C0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1867712E224A25E000B38C0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18677147224A25E000B38C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18677148224A25E000B38C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1867714A224A25E100B38C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR5W935N7F;
+				INFOPLIST_FILE = WinterIsComing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pratian.WinterIsComing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1867714B224A25E100B38C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR5W935N7F;
+				INFOPLIST_FILE = WinterIsComing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pratian.WinterIsComing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1867714D224A25E100B38C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR5W935N7F;
+				INFOPLIST_FILE = WinterIsComingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pratian.WinterIsComingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinterIsComing.app/WinterIsComing";
+			};
+			name = Debug;
+		};
+		1867714E224A25E100B38C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR5W935N7F;
+				INFOPLIST_FILE = WinterIsComingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pratian.WinterIsComingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinterIsComing.app/WinterIsComing";
+			};
+			name = Release;
+		};
+		18677150224A25E100B38C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR5W935N7F;
+				INFOPLIST_FILE = WinterIsComingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pratian.WinterIsComingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WinterIsComing;
+			};
+			name = Debug;
+		};
+		18677151224A25E100B38C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR5W935N7F;
+				INFOPLIST_FILE = WinterIsComingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pratian.WinterIsComingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WinterIsComing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1867711C224A25DE00B38C0A /* Build configuration list for PBXProject "WinterIsComing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18677147224A25E000B38C0A /* Debug */,
+				18677148224A25E000B38C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18677149224A25E100B38C0A /* Build configuration list for PBXNativeTarget "WinterIsComing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1867714A224A25E100B38C0A /* Debug */,
+				1867714B224A25E100B38C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1867714C224A25E100B38C0A /* Build configuration list for PBXNativeTarget "WinterIsComingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1867714D224A25E100B38C0A /* Debug */,
+				1867714E224A25E100B38C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1867714F224A25E100B38C0A /* Build configuration list for PBXNativeTarget "WinterIsComingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18677150224A25E100B38C0A /* Debug */,
+				18677151224A25E100B38C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18677119224A25DE00B38C0A /* Project object */;
+}
