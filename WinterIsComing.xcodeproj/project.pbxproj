@@ -551,7 +551,7 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_SWIFT_FLAGS = "-DPRODUCTION";
-				PRODUCT_BUNDLE_IDENTIFIER = pratian.WinterIsComing;
+				PRODUCT_BUNDLE_IDENTIFIER = pratian.WinterIsComing.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -570,7 +570,7 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_SWIFT_FLAGS = "-DPRODUCTION";
-				PRODUCT_BUNDLE_IDENTIFIER = pratian.WinterIsComing;
+				PRODUCT_BUNDLE_IDENTIFIER = pratian.WinterIsComing.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -664,6 +664,7 @@
 			baseConfigurationReference = 1867716E224A43F000B38C0A /* Config-Dev.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Dev";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CR5W935N7F;
 				INFOPLIST_FILE = "$(SRCROOT)/WinterIsComing-Dev.plist";
@@ -672,8 +673,9 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_SWIFT_FLAGS = "-DDEVELOPMENT";
-				PRODUCT_BUNDLE_IDENTIFIER = "pratian.WinterIsComing-Dev";
+				PRODUCT_BUNDLE_IDENTIFIER = "pratian.WinterIsComing-Dev.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -683,6 +685,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Dev";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CR5W935N7F;
 				INFOPLIST_FILE = "$(SRCROOT)/WinterIsComing-Dev.plist";
@@ -691,8 +694,9 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_SWIFT_FLAGS = "-DDEVELOPMENT";
-				PRODUCT_BUNDLE_IDENTIFIER = "pratian.WinterIsComing-Dev";
+				PRODUCT_BUNDLE_IDENTIFIER = "pratian.WinterIsComing-Dev.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -710,7 +714,7 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_SWIFT_FLAGS = "-DTEST";
-				PRODUCT_BUNDLE_IDENTIFIER = "pratian.WinterIsComing-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "pratian.WinterIsComing-Test.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -729,7 +733,7 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_SWIFT_FLAGS = "-DTEST";
-				PRODUCT_BUNDLE_IDENTIFIER = "pratian.WinterIsComing-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "pratian.WinterIsComing-Test.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

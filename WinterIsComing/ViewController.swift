@@ -17,13 +17,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         self.imageViewChrome.image = UIImage(named: infoForKey("a")!)
         
-        #if PRODUCTION
-        print("Production")
-        #elseif DEVELOPMENT
-        print("Development")
-        #else
-        print("Test")
-        #endif
+        
         
     }
     
