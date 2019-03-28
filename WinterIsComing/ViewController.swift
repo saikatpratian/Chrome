@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var imageViewChrome: UIImageView!
     var s = ""
+    var b = ""
     //
     override func viewDidLoad() {
         super.viewDidLoad()
