@@ -22,6 +22,10 @@ class ViewController: UIViewController {
         
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        
+    }
+    
     func infoForKey(_ key: String) -> String? {
         return (Bundle.main.infoDictionary?[key] as? String)?
             .replacingOccurrences(of: "\\", with: "")
