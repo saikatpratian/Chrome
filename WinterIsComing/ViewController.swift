@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.imageViewChrome.image = UIImage(named: infoForKey("a")!)
-        print(s)
+        print(s)//
         //
         
     }
