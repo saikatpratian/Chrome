@@ -11,12 +11,13 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var imageViewChrome: UIImageView!
+    var s = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.imageViewChrome.image = UIImage(named: infoForKey("a")!)
-        
+        print(s)
         //
         
     }
