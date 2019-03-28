@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     //
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Do any additional setup after loaddsing the view, typically from a nib.
         self.imageViewChrome.image = UIImage(named: infoForKey("a")!)
         print(s)//jyhg
         //
