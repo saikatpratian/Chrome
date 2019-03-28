@@ -25,6 +25,8 @@ class ViewController: UIViewController {
         return (Bundle.main.infoDictionary?[key] as? String)?
             .replacingOccurrences(of: "\\", with: "")
     }
+    
+    //
 
 
 }
