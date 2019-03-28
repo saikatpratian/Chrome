@@ -19,7 +19,7 @@ platform :ios do
   lane :generate_ipa_develop do
     build_ios_app(
       configuration: "Debug",
-      scheme: "Test",
+      scheme: "WinterIsComing",
       clean: true,
       export_method: 'development',
       output_directory: "~/Desktop", # Destination directory. Defaults to current directory.
